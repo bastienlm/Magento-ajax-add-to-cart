@@ -1,0 +1,3 @@
+#!/bin/sh
+git add modman
+git commit --amend -C HEAD --no-verify

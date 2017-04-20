@@ -1,0 +1,10 @@
+{
+  "name": "ph2m/phaddtocart",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Add your products on cart thanks to Ajax",
+  "homepage": "https://github.com/bastienlm/Magento-ajax-add-to-cart",
+  "suggest": {
+    "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency."
+  }
+}

@@ -1,0 +1,3 @@
+#!/bin/sh
+generate-modman --include-others
+
