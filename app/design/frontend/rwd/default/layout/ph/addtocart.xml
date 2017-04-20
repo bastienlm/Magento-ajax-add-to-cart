@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <!-- Product page -->
+    <catalog_product_view>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>js/ph/addtocart.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/ph/addtocart.css</name>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="phaddtocart/overlay" name="phaddtocart.overlay" template="ph/addtocart/popup.phtml"/>
+        </reference>
+    </catalog_product_view>
+</layout>
